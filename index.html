@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Amaris is a boy</title>
+		<style>
+			body {
+				background: khaki;
+				color: black;
+				font-size: 13rem;
+				display: flex;
+				vertical-align: middle;
+				align-items: center;
+				justify-content: center;
+				font-family: 'Comic Sans MS', Arial, Helvetica, sans-serif;
+				overflow: hidden;
+			}
+			.center {
+				width: 100vw;
+				text-align: center;
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+				animation: rotate infinite forwards 10s;
+			}
+
+			@keyframes rotate {
+				0% {
+					rotate: 0deg;
+				}
+
+				100% {
+					rotate: 360deg;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="center">Amaris is a boy!</div>
+	</body>
+</html>
